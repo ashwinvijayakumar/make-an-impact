@@ -91,3 +91,47 @@ footer {
     font-size: 0.95rem;
   }
 }
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar {
+  background: #1e293b;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+/* Desktop view: sidebar layout */
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row;
+  }
+
+  .sidebar {
+    width: 300px;
+    min-height: 100vh;
+    position: sticky;
+    top: 0;
+    align-self: flex-start;
+  }
+
+  .timeline {
+    flex: 1;
+    padding: 2rem;
+    max-width: none;
+  }
+
+  footer {
+    margin-left: 300px;
+  }
+}
+
+/* Ensure mobile is still friendly */
+@media (max-width: 767px) {
+  .sidebar {
+    padding: 1rem;
+  }
+}
+
