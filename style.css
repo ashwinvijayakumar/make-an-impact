@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  background: #1e293b;
+  color: white;
+  padding: 2rem 1rem;
+}
+
+.timeline {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.event {
+  background: white;
+  margin-bottom: 1rem;
+  border-left: 4px solid #2563eb;
+  padding: 1rem;
+  transition: transform 0.3s;
+}
+
+.event:hover {
+  transform: scale(1.02);
+}
+
+.year {
+  font-weight: bold;
+  color: #2563eb;
+  margin-bottom: 0.5rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #e5e7eb;
+}
