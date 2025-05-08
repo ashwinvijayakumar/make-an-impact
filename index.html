@@ -24,8 +24,17 @@
       </header>
     </aside>
     <main class="timeline">
-      <h2 class="timeline-heading">My IMPACT journey</h2>
-      <!-- Timeline events will be injected by JavaScript -->
+      <div class="search-container">
+        <label for="searchInput" class="sr-only">Search my impact journey</label>
+        <input type="text" id="searchInput" placeholder="Search my impact journey" />
+        <span class="search-icon">🔍</span>
+      </div>
+      <div id="timelineContent">
+        <!-- Timeline events injected here -->
+      </div>
+      <div id="noResultsMessage" class="no-results" style="display: none;">
+        <p>I am working on it! In the meantime, play this game.</p>
+      </div>
     </main>
   </div>
   <footer>
