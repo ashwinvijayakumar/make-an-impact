@@ -12,6 +12,27 @@ header {
   padding: 2rem 1rem;
 }
 
+.summary {
+  max-width: 800px;       /* so it doesn’t stretch too wide on desktop */
+  margin: 2rem auto;      /* center + vertical spacing */
+  padding: 0 1rem;        /* small horizontal padding on mobile */
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.summary h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #0f172a;         /* dark-gray heading */
+}
+
+.summary p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #334155;         /* medium-gray body text */
+}
+
 .search-container {
   position: relative;
   margin: 1rem auto;
