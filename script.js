@@ -6,7 +6,8 @@ const events = [
   { year: '2019 - Product Manager @ Intel IoT Group', text: "Lead the development & scale of 3 generations of Intel Movidius discrete NPU PCIe cards." },
   { year: '2022 - Product Manager @ Intel Client Computing Group', text: "Incubated NUCaaS, a software & services offering | Deployed in 13 locations across the Americas & EMEA | Bumped up NUC operating margin to 33%." },
   { year: '2023 - Product Manager @ Intel Client Computing Group', text: "Recorded $30M opportunity for NUCaaS | Only $1M realized before NUC-G spin-off to Asus." },
-  { year: '2024 - Product Manager @ Intel Network & Edge Group', text: "Transitioned AWS, Azure and RedHat engagements from NUCaaS to Intel Tiber Edge Infrastructure Manager." },
+  { year: '2024 - Product Manager @ Intel Edge Computing Group', text: "Transitioned AWS, Azure and RedHat engagements from NUCaaS to Intel Tiber Edge Infrastructure Manager." },
+  { year: '2025 - Product Manager @ Intel Edge Computing Group', text: "Led a cross-functional team of SW AI experts to launch Gen AI libraries and Retail AI Suite fine tuned to drive maximum performance on Intel XPUs." },
   { year: '20xx [Future Goal] - General Manager @ TDB Enterprise', text: "Gain GM experience by running a PnL within an enterprise company." }
 ];
 
