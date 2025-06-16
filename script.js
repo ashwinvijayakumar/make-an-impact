@@ -7,8 +7,7 @@ const events = [
   { year: '2022 - Product Manager @ Intel Client Computing Group', text: "Incubated NUCaaS, a software & services offering | Deployed in 13 locations across the Americas & EMEA | Bumped up NUC operating margin to 33%." },
   { year: '2023 - Product Manager @ Intel Client Computing Group', text: "Recorded $30M opportunity for NUCaaS | Only $1M realized before NUC-G spin-off to Asus." },
   { year: '2024 - Product Manager @ Intel Network & Edge Group', text: "Transitioned AWS, Azure and RedHat engagements from NUCaaS to Intel Tiber Edge Infrastructure Manager." },
-  { year: '20xx [Future Goal] - General Manager @ TDB Enterprise', text: "Gain GM experience by running a PnL within an enterprise company." },
-  { year: '20xx [Future Goal] - [Co]-Founder @ Stealth Startup', text: "Back to startup grassroots! This time, plan for scale!" }
+  { year: '20xx [Future Goal] - General Manager @ TDB Enterprise', text: "Gain GM experience by running a PnL within an enterprise company." }
 ];
 
 const timeline = document.querySelector('.timeline');
